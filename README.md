@@ -52,12 +52,9 @@ FastAPI REST API
 JSON Metadata Output
 
 
-6. ML Model Details
-Component	Used
-Feature Extraction	TF-IDF
-Classifier	Logistic Regression
-Learning Type	Statistical NLP (Not Rule-Based)
-Output Type	Multi-Label Classification
+<img width="758" height="368" alt="image" src="https://github.com/user-attachments/assets/ce5f4089-7cd1-4c85-a88a-bf845e88de75" />
+
+
 7. Evaluation Strategy
 
 Metric used: Per-field Recall
