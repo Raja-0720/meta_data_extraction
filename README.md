@@ -32,26 +32,33 @@ Due to system compatibility and time constraints, OCR and scanned document proce
 This implementation focuses on building and validating the core document intelligence layer using structured CSV corpus.
 
 This follows the industry MVP development approach, where intelligence models are built first and OCR is integrated later as a plug-in layer.# meta_data_extraction
+
 4. Architecture
 Contract CSV Dataset
+
         ↓
 Text Corpus Builder
+
         ↓
 TF-IDF Vectorizer
+
         ↓
 Multi-Output ML Classifier
+
         ↓
 FastAPI REST API
+
         ↓
 JSON Metadata Output
 
-5. ML Model Details
+
+6. ML Model Details
 Component	Used
 Feature Extraction	TF-IDF
 Classifier	Logistic Regression
 Learning Type	Statistical NLP (Not Rule-Based)
 Output Type	Multi-Label Classification
-6. Evaluation Strategy
+7. Evaluation Strategy
 
 Metric used: Per-field Recall
 
